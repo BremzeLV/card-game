@@ -75,14 +75,16 @@ response
 For more in-depth enpoint examples theres a postman url available:
 https://www.getpostman.com/collections/e1448ab81b23b57491a2
 
-###Setup
-Pull the repo: 
-Install dependencies: `yarn`
-Run mongodb service
-Rename `.env.example` to `.env` and change values if required
-Start the project: `yarn start`
+### Setup
 
-###Testing
+- Pull the repo 
+- Install dependencies: `yarn`
+- Run mongodb service
+- Rename `.env.example` to `.env` and change values if required
+- Start the project: `yarn start`
+
+### Testing
+
 Do `yarn test` for tests
 
 ### Code quality
