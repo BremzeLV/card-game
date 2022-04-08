@@ -4,6 +4,9 @@ import {
 } from './FrenchDeckService.types'
 
 class FrenchDeckService {
+  /**
+   * Takes cards from the deck and returns both ends of the card deck
+   */
   static drawDeck(deck: Card[], count: number): {
         head: Card[],
         tail: Card[]
@@ -24,8 +27,8 @@ class FrenchDeckService {
 
 
   /**
-     * Parses French Deck card codes to card objects
-     */
+   * Parses French Deck card codes to card objects
+   */
   static parseDeck(deckToBeParsed: string): Card[] {
     const suitMap: SuitsMap = {
       S: 'SPADES',
@@ -71,6 +74,7 @@ class FrenchDeckService {
     const cardDeck: string[] = []
 
     if (type === DeckType.SHORT) {
+      // only from 7 and up
       values = values.splice(4, 14)
     }
 
