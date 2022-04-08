@@ -30,10 +30,6 @@ class DeckService {
   ) {
     return await Deck.findOneAndUpdate(filter, update)
   }
-
-  static async deleteDeck(filter: FilterQuery<DeckDocument>) {
-    return await Deck.deleteOne(filter)
-  }
 }
 
 export default DeckService
