@@ -1,0 +1,42 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.14.2"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "start": "nodemon --config nodemon.json src/server.ts",
+    "test": "jest --config jest.config.js --watchAll --verbose --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.10",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/errorhandler": "^1.5.0",
+    "@types/eslint": "^8.4.1",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/lodash": "^4.14.181",
+    "@types/node": "^17.0.23",
+    "@types/uuid": "^8.3.4",
+    "@types/yup": "^0.29.13",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

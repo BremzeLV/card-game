@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649390821656" clover="3.2.0">
+  <project timestamp="1649390821656" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="5" coveredconditionals="5" methods="9" coveredmethods="9" elements="40" coveredelements="40" complexity="0" loc="26" ncloc="26" packages="1" files="2" classes="2"/>
+    <file name="FrenchDeckService.ts" path="C:\Users\Everts\Desktop\card-game\src\services\FrenchDeckService\FrenchDeckService.ts">
+      <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="48" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="52" count="3" type="stmt"/>
+      <line num="64" count="2" type="stmt"/>
+      <line num="67" count="2" type="stmt"/>
+      <line num="71" count="2" type="stmt"/>
+      <line num="73" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="77" count="2" type="stmt"/>
+      <line num="78" count="22" type="stmt"/>
+      <line num="79" count="88" type="stmt"/>
+      <line num="83" count="2" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+    </file>
+    <file name="FrenchDeckService.types.ts" path="C:\Users\Everts\Desktop\card-game\src\services\FrenchDeckService\FrenchDeckService.types.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
