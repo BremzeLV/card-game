@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649390821656" clover="3.2.0">
-  <project timestamp="1649390821656" name="All files">
+<coverage generated="1649403221251" clover="3.2.0">
+  <project timestamp="1649403221252" name="All files">
     <metrics statements="26" coveredstatements="26" conditionals="5" coveredconditionals="5" methods="9" coveredmethods="9" elements="40" coveredelements="40" complexity="0" loc="26" ncloc="26" packages="1" files="2" classes="2"/>
     <file name="FrenchDeckService.ts" path="C:\Users\Everts\Desktop\card-game\src\services\FrenchDeckService\FrenchDeckService.ts">
       <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8"/>

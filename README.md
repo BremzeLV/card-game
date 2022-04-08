@@ -69,7 +69,7 @@ response
 ```json
 {
     "message": "Deck not found",
-    "status": 400
+    "status": 404
 }
 ```
 For more in-depth enpoint examples theres a postman url available:

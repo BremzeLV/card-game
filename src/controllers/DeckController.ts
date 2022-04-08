@@ -11,6 +11,8 @@ class DeckController {
       const deckOfCards = FrenchDeckService.generateDeck(body.type)
       const deck = await DeckService.createDeck(deckOfCards, body)
 
+      if (!deck) throw new ApiError('Deck was not created', 400)
+
       return res.status(201).json({
         deckId: deck.deckId,
         type: deck.type,
@@ -26,7 +28,7 @@ class DeckController {
     try {
       const deck = await DeckService.openDeck({deckId})
 
-      if (!deck) throw new ApiError('Deck not found', 400)
+      if (!deck) throw new ApiError('Deck not found', 404)
 
       return res.status(200).json({
         deckId: deck.deckId,
@@ -44,7 +46,7 @@ class DeckController {
     try {
       const deck = await DeckService.openDeck({deckId})
 
-      if (!deck) throw new ApiError('Deck not found', 400)
+      if (!deck) throw new ApiError('Deck not found', 404)
 
       const decodedDeck = FrenchDeckService.parseDeck(deck.cards)
       const drawnDeck = FrenchDeckService.drawDeck(decodedDeck, count)
